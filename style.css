@@ -1,0 +1,72 @@
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0px;
+}
+    h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+.name-highlight{
+    color: green;
+}
+.side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.side img{
+width: 100%;
+}
+.top{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+ height: 500px;
+ padding-bottom: 50px;
+}
+.color{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, red ,orange);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.do{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.did{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.done{
+    box-shadow: 10px 10px 20px gray;
+    height: 300px;
+    border-radius: 5px;
+
+}
+#have{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+#had{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
